@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio by Pair &#128293;</title>
+    
+    <!-- Favicon for the webpage -->
+    <link rel="icon" href="images/webpagelogo.png" type="image/png" style="background-color: #3c3c3c;">
+    
+    <!-- Linking external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <!-- Logo section -->
+        <div id="logo">
+            <a href="#home">
+                <img src="images/ITlogo.png" alt="Logo" class="itlogo">
+            </a>
+        </div>  
+
+        <!-- Navigation bar -->
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#featured">Featured</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <h2>Welcome to Our Portfolio</h2>
+        <p>Hi, welcome! We are IT students from Cebu Eastern College.</p>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <div class="profiles-container">
+            <!-- Profile Card 1 -->
+            <div class="profile-card">
+                <img src="images/Alison.jpg" alt="Profile 1">
+                <h2>Christian Paul N. Alison</h2>
+                <p>BSIT Student</p>
+                <input type="checkbox" id="profile1-toggle">
+                <label for="profile1-toggle" class="show-more-btn">Show More</label>
+                <div class="more-info">
+                    <p>Age: 18</p>
+                    <p>My ambition after college is to become a game developer because I enjoy creating games for fun. It allows me to bring my imagination to life and continuously improve my creativity and problem-solving skills.</p>
+                </div>
+            </div>
+            
+            <!-- Profile Card 2 -->
+            <div class="profile-card">
+                <img src="images/Flores1.jpg" alt="Profile 2">
+                <h2>John Carlo G. Flores</h2>
+                <p>BSIT Student</p>
+                <input type="checkbox" id="profile2-toggle">
+                <label for="profile2-toggle" class="show-more-btn">Show More</label>
+                <div class="more-info">
+                    <p>Age: 19</p>
+                    <p>My ambition after college is to be rich and successful, building a life of financial freedom and opportunities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section id="featured">
+        <h3>Featured Video</h3>
+        <div class="video-card">
+            <iframe id="video" width="100%" height="100%" src="https://www.youtube.com/embed/V_4DjqODabk?si=YB7ZVEBI-eCcBVHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-card">
+            <div class="contact-info">
+                <!-- Contact Information for Christian -->
+                <div class="contact-person">
+                    <h3>Christian Paul N. Alison</h3>
+                    <p>Email: selyakanin5@gmail.com</p>
+                    <p>Phone: +63 970 244 0970</p>
+                    <div class="social-links">
+                        <a href="https://web.facebook.com/christian.paul.alison.2024" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/shinshan4527/" class="fa fa-instagram"></a>
+                    </div>
+                </div>
+
+                <!-- Contact Information for John -->
+                <div class="contact-person">
+                    <h3>John Carlo G. Flores</h3>
+                    <p>Email: carlojohn065@gmail.com</p>
+                    <p>Phone: +63 991 078 6930</p>
+                    <div class="social-links">
+                        <a href="https://web.facebook.com/TheInjoker" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/6ix.xav/" class="fa fa-instagram"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Google Map Embed for School Location -->
+            <div class="contact-map">
+                <h3>School Location</h3>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3932.6164176932966!2d123.893442!3d10.2944382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99bfcc60d650d%3A0x5ee73506c68dd233!2sCebu%20Eastern%20College!5e0!3m2!1sen!2sph!4v1710142123456!5m2!1sen!2sph" 
+                    width="100%" height="200" style="border: none; border-radius: 5px;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Portfolio by Pair. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
